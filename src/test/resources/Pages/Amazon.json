@@ -1,0 +1,19 @@
+{
+    "Sobre Amazon": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Sobre Amazon.es"
+  },
+  "Continuar sin aceptar": {
+    "GetFieldBy": "link",
+    "ValueToFind": "Continuar sin aceptar"
+  },
+"Mi Cuenta": {
+  "GetFieldBy": "xpath",
+  "ValueToFind": "//span[contains(text(),'Mi cuenta')]"
+},
+  "Mis Pedidos": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//body/div[@id='a-page']/div[2]/div[1]/div[2]/div[1]/a[1]/div[1]"
+  }
+
+}

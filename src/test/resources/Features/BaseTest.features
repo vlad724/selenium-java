@@ -1,0 +1,155 @@
+Feature: Examples
+  Optional description of the feature
+  Background:
+    Given I set UserEmail value in Data Scenario
+
+  @test0
+  Scenario: Get URL
+    Given I go to site https://www.spotify.com/py/signup/
+    Then I load the DOM Information spotify_registro.json
+    Then I close the window
+    Then I quit the applications
+
+  @test1
+  Scenario: Get Sites
+    Given I am in App main site
+    Then I load the DOM Information spotify_registro.json
+    And I Save text of Titulo as Scenario Context
+    And I set Email with key value Titulo.text
+
+  @test2
+  Scenario: I do a Click
+    Given I go to site https://www.spotify.com/py/signup/
+    Then I load the DOM Information spotify_registro.json
+    And I do a click in element Email
+    And I set Email with text mervindiazlugo@gmail.com
+    Then I close the window
+
+  @test3
+  Scenario: Handle Dropdown
+    Given I am in App main site
+    Then I load the DOM Information spotify_registro.json
+    And I wait for element Mes de Nacimiento to be present
+    And I set text Febrero in dropdown Mes de Nacimiento
+    And I set index 02 in dropdown Mes de Nacimiento
+
+  @test4
+  Scenario: I check state
+    Given I am in App main site
+    Then I load the DOM Information spotify_registro.json
+    And I set Email with text mervindiazlugo2@gmail.com
+    Then I check if Email Error error message is false
+    Then I close the window
+
+  @frames
+  Scenario: Handle various functions
+    Given I go to site https://chercher.tech/practice/frames-example-selenium-webdriver
+    Then I load the DOM Information frames.json
+    And I switch to Frame: Frame2
+    And I set text Avatar in dropdown Frame2 Select
+    And I switch to parent frame
+    And I switch to Frame: Frame1
+    And I set Frame1 input with text Esto es una prueba
+    Then I switch to Frame: Frame3
+    And I check the checkbox having Frame3 input
+
+  @CheckBoxes
+  Scenario: Handle CheckBoxes
+    Given I am in App main site
+    Then I load the DOM Information spotify_registro.json
+    And I check the checkbox having Male
+    And I check the checkbox having Female
+    And I check the checkbox having No binary
+    And I check the checkbox having thirdparty
+    Then I close the window
+
+  @test5
+  Scenario: Click to elements
+    Given I go to site https://www.amazon.es/
+    Then I load the DOM Information Amazon.json
+    #And I do a click in element Sobre Amazon
+    And I click in JS element Mi Cuenta
+    And I wait for element Mis Pedidos to be present
+
+  @test6
+  Scenario: Scroll to elements
+    Given I go to site https://www.amazon.es/
+    Then I load the DOM Information Amazon.json
+    Then I do a click in element Continuar sin aceptar
+    Then I scroll to element Sobre Amazon
+    Then I scroll to top of page
+    Then I scroll to end of page
+    #And I do a click in element Sobre Amazon
+    #And I click in JS element Mi Cuenta
+    And I wait for element Sobre Amazon to be present
+
+  @test7
+    Scenario: Wait Site State Is Ready
+      Given I go to site https://www.amazon.es/
+      And I wait site is loaded
+
+  @test8
+  Scenario: Open New Tab
+    Given I go to site https://www.amazon.es/
+    Then I open new tab with URL https://chercher.tech/practice/frames-example-selenium-webdriver
+    Then I go to practice window
+    Then I load the DOM Information frames.json
+    And I switch to Frame: Frame2
+    And I set text Avatar in dropdown Frame2 Select
+    And I go to Principal window
+    And I open new tab with URL https://www.google.com
+    And I go to Google window
+    And I go to pratice window
+    And I go to Principal window
+    Then I load the DOM Information Amazon.json
+    Then I do a click in element Continuar sin aceptar
+    Then I scroll to element Sobre Amazon
+    And I click in JS element Mi Cuenta
+    And I wait for element Sobre Amazon to be present
+
+  @test9
+  Scenario: Handle Alerts
+    Given I go to site https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert
+    Then I load the DOM Information frames.json
+    And I switch to Frame: Frame4 Alerta
+    And I do a click in element Alert
+    Then I accept alert
+
+  @test10
+  Scenario: take a screenshot
+    Given I am in App main site
+    And I wait site is loaded
+    And i take Screenshot: TestScreenshot
+    
+  @Assertions1
+  Scenario: Assert contain text
+    Given I go to site https://www.spotify.com/py/signup/
+    Then I load the DOM Information spotify_registro.json
+    And I do a click in element Email
+    And I set Email with text mervindiazlugo@gmail.com
+    And I do a click in element Email Confirmacion2
+    Then Assert if Email Error2 contains text Este correo electrónico ya está conectado a una cuenta. Inicia sesión.
+    Then Assert if Email Error2 is equal to Este correo electrónico ya está conectado a una cuenta. Inicia sesión.
+
+  @Assertions2
+  Scenario: Assert not contain text
+    Given I go to site https://www.spotify.com/py/signup/
+    Then I load the DOM Information spotify_registro.json
+    And I do a click in element Email
+    And I set Email with text mervindiazlugo@gmail.com
+    And I do a click in element Email Confirmacion2
+    Then Check if Email Error2 is NOT contains text COVID-19
+
+  @Assertions3
+  Scenario: Elements is/is not present
+    Given I go to site https://www.spotify.com/py/signup/
+    Then I load the DOM Information spotify_registro.json
+    And I do a click in element Email
+    Then Check if Email Error2 is NOT Displayed
+    And I set Email with text mervindiazlugo@gmail.com
+    And I do a click in element Email Confirmacion2
+    Then Assert if Email Error2 is Displayed
+
+
+
+

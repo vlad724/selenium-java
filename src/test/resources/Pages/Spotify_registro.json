@@ -1,0 +1,81 @@
+  {
+  "Logo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='spotify-logo']"
+  },
+
+
+  "Titulo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(text(),'Regístrate gratis para escuchar')]"
+  },
+
+  "Already": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//p[@class='primary']"
+  },
+
+  "Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='email']"
+  },
+
+  "Email Confirmacion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='signup_form[confirm_email]']"
+  },
+    "Email Confirmacion2": {
+      "GetFieldBy": "Xpath",
+      "ValueToFind": "//input[@id='confirm']"
+    },
+
+  "Pass": {
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  },
+
+  "Nombre": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[contains(@id,'register-displayname')]"
+  },
+
+  "Mes de Nacimiento": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//select[@id='month']"
+  },
+
+    "Email Error2": {
+      "GetFieldBy": "xpath",
+      "ValueToFind": "//body/div[@id='__next']/main[1]/div[1]/div[1]/form[1]/div[1]/div[2]/span[1]"
+    },
+
+  "Email Error": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//span[contains(text(),'You need to enter your email.')]"
+  },
+
+  "text":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[contains(text(), '{0}')]"
+  },
+
+   "Male": {
+  "GetFieldBy": "xpath",
+  "ValueToFind": "//body/div[@id='__next']/main[1]/div[1]/div[1]/form[1]/fieldset[1]/div[1]/div[1]/label[1]/span[1]"
+   },
+
+  "Female": {
+      "GetFieldBy": "xpath",
+      "ValueToFind": "//body/div[@id='__next']/main[1]/div[1]/div[1]/form[1]/fieldset[1]/div[1]/div[2]/label[1]/span[1]"
+    },
+
+    "No binary": {
+      "GetFieldBy": "xpath",
+      "ValueToFind": "//body/div[@id='__next']/main[1]/div[1]/div[1]/form[1]/fieldset[1]/div[1]/div[3]/label[1]/span[1]"
+    },
+
+    "thirdparty": {
+      "GetFieldBy": "xpath",
+      "ValueToFind": "//body/div[@id='__next']/main[1]/div[1]/div[1]/form[1]/div[6]/div[1]/label[1]/span[1]"
+    }
+  }

@@ -1,0 +1,6 @@
+{
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "Password"
+  }
+}
