@@ -84,9 +84,9 @@ Feature: Examples
     And I wait for element Sobre Amazon to be present
 
   @test7
-    Scenario: Wait Site State Is Ready
-      Given I go to site https://www.amazon.es/
-      And I wait site is loaded
+  Scenario: Wait Site State Is Ready
+    Given I go to site https://www.amazon.es/
+    And I wait site is loaded
 
   @test8
   Scenario: Open New Tab
@@ -120,24 +120,24 @@ Feature: Examples
     Given I am in App main site
     And I wait site is loaded
     And i take Screenshot: TestScreenshot
-    
+
   @Assertions1
   Scenario: Assert contain text
     Given I go to site https://www.spotify.com/py/signup/
     Then I load the DOM Information spotify_registro.json
     And I do a click in element Email
     And I set Email with text mervindiazlugo@gmail.com
-    And I do a click in element Email Confirmacion2
-    Then Assert if Email Error2 contains text Este correo electrónico ya está conectado a una cuenta. Inicia sesión.
-    Then Assert if Email Error2 is equal to Este correo electrónico ya está conectado a una cuenta. Inicia sesión.
+    And I do a click in element Pass
+    Then Assert if Email Error2 contains text Este email ya está conectado a una cuenta. Inicia sesión.
+    Then Assert if Email Error2 is equal to Este email ya está conectado a una cuenta. Inicia sesión.
 
   @Assertions2
   Scenario: Assert not contain text
     Given I go to site https://www.spotify.com/py/signup/
-    Then I load the DOM Information spotify_registro.json
+    Then I load the DOM Information Spotify_registro.json
     And I do a click in element Email
     And I set Email with text mervindiazlugo@gmail.com
-    And I do a click in element Email Confirmacion2
+    And I do a click in element Pass
     Then Check if Email Error2 is NOT contains text COVID-19
 
   @Assertions3
@@ -147,9 +147,7 @@ Feature: Examples
     And I do a click in element Email
     Then Check if Email Error2 is NOT Displayed
     And I set Email with text mervindiazlugo@gmail.com
-    And I do a click in element Email Confirmacion2
     Then Assert if Email Error2 is Displayed
-
 
 
 

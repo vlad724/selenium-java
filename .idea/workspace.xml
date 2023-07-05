@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96254190-774c-4cd2-ac28-4802ce3dfffe" name="Default Changelist" comment="" />
+    <list default="true" id="96254190-774c-4cd2-ac28-4802ce3dfffe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/BaseTest.features" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/BaseTest.features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Pages/Spotify_registro.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Pages/Spotify_registro.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,22 +18,17 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2D8mG5ZpycfnEkmTJfDGwF43msX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/Pages" />
+    <property name="last_opened_file_path" value="E:/Estudios/Selenium Testing Framework con JAVA, Maven y Cucumber/Sección 4_ Framweork_ Java _ Selenium _ Cucumber/BaseFrameworkPractice" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -41,7 +40,7 @@
       <recent name="C:\Users\vladimirlopez\IdeaProjects\BaseFrameworkPractice\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Elements is/is not present">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Assert contain text">
     <configuration name="Scenario: Assert contain text" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/BaseTest.features" />
@@ -137,15 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cucumber java.Scenario: Elements is/is not present" />
-        <item itemvalue="Cucumber java.Scenario: Assert contain text" />
-        <item itemvalue="Cucumber java.Scenario: Assert not contain text" />
-        <item itemvalue="Cucumber java.Scenario: Assert is not contain text" />
-        <item itemvalue="Cucumber java.Scenario: Assert if not contain text" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -161,62 +151,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="260" y="274" key="FileChooserDialogImpl" timestamp="1660590877635">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1688574789213">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="260" y="274" key="FileChooserDialogImpl/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660590877635" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1666038776331">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666038776331" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1666038776330">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666038776330" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1666038776330">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666038776330" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1666038776330">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666038776330" />
-    <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1660771743134">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="914" height="344" key="GridCell.Tab.1.bottom/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660771743134" />
-    <state width="914" height="344" key="GridCell.Tab.1.center" timestamp="1660771743134">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="914" height="344" key="GridCell.Tab.1.center/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660771743134" />
-    <state width="914" height="344" key="GridCell.Tab.1.left" timestamp="1660771743133">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="914" height="344" key="GridCell.Tab.1.left/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660771743133" />
-    <state width="914" height="344" key="GridCell.Tab.1.right" timestamp="1660771743134">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="914" height="344" key="GridCell.Tab.1.right/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660771743134" />
-    <state x="10" y="174" key="Maven.ArtifactSearchDialog" timestamp="1660769963422">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="10" y="174" key="Maven.ArtifactSearchDialog/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660769963422" />
-    <state x="440" y="90" key="SettingsEditor" timestamp="1666031309013">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="440" y="90" key="SettingsEditor/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666031309013" />
-    <state x="183" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1660171317011">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="183" y="340" key="com.intellij.ide.util.TipDialog/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1660171317011" />
-    <state x="136" y="242" key="run.anything.popup" timestamp="1666031302699">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="136" y="242" key="run.anything.popup/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666031302699" />
-    <state x="143" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1666036245851">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="143" y="228" width="672" height="678" key="search.everywhere.popup/1920.232.1360.802/0.0.1920.1032@0.0.1920.1032" timestamp="1666036245851" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.480.1920.1040@0.0.2560.1400" timestamp="1688574789213" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BaseFrameworkPractice$Scenario__Scroll_to_elements.ic" NAME="Scenario: Scroll to elements Coverage Results" MODIFIED="1666022808084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
